@@ -1,0 +1,37 @@
+﻿@media screen and (max-width:1000px){
+    .my_photo{
+        position:inherit;
+        height: auto;
+    }
+    
+    .download{
+        position: inherit;
+    }
+    
+    .hi_part{
+        margin-top: 10%;
+        padding: 0;
+        max-width: 80%;
+    }
+    
+    .info, .info_part{
+        margin:0;
+    }
+    
+    .info_big{
+        max-width: 100%;
+    }
+    
+    .all_here{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+    }
+
+    .about{
+        margin-top: 5%;
+    }
+}

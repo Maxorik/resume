@@ -1,7 +1,10 @@
 let hi_part=document.getElementById('hi_part');
 let my_photo=document.getElementById('my_photo');
 
-window.addEventListener('scroll', movement, false);
+if(document.documentElement.clientWidth > 1000){
+    window.addEventListener('scroll', movement, false);
+}
+
 let movemeleft = 0;
 let pxs = document.documentElement.offsetWidth / 100;
 
