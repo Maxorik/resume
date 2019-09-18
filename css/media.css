@@ -70,4 +70,12 @@
     .footer{
         display: none;
     }
+    
+    .header{
+        position: sticky;
+        top:0;
+        z-index: 99;
+        background-image: url(../img/dark-gray-flecks.png);
+        
+    }
 }
