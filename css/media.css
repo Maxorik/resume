@@ -18,6 +18,10 @@
         line-height: 34px;
     }
     
+    .fa-paperclip{
+        display: none;
+    }
+    
     .hi_part{
         margin-top: 10%;
         margin-left: 45%;
@@ -28,6 +32,10 @@
     .info, .info_part{
         margin:0;
         word-wrap: break-word;
+    }
+    
+    .info{
+        flex-direction: column;
     }
     
     .info_text{
