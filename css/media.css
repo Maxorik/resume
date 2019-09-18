@@ -2,14 +2,17 @@
     .my_photo{
         position:inherit;
         height: auto;
+        width: 40%;
     }
     
     .download{
         position: inherit;
+        width: 40%;
     }
     
     .hi_part{
         margin-top: 10%;
+        margin-left: 45%;
         padding: 0;
         max-width: 80%;
     }
