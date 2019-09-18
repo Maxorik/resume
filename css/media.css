@@ -1,4 +1,9 @@
 ﻿@media screen and (max-width:1000px){
+    body{
+    background:none;
+    background-image: url(../img/dark-gray-cubes.png);
+    }
+    
     .my_photo{
         position:inherit;
         height: auto;
@@ -8,17 +13,24 @@
     .download{
         position: inherit;
         width: 40%;
+        height: auto;
+    }
+    
+    .resume{
+        font-size: 30px;
+        line-height: 34px;
     }
     
     .hi_part{
         margin-top: 10%;
         margin-left: 45%;
         padding: 0;
-        max-width: 80%;
+        max-width: 95%;
     }
     
     .info, .info_part{
         margin:0;
+        word-wrap: break-word;
     }
     
     .info_big{
@@ -36,5 +48,9 @@
 
     .about{
         margin-top: 5%;
+    }
+    
+    .footer{
+        display: none;
     }
 }
