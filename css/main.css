@@ -63,9 +63,8 @@ body{
     margin:0;
     padding:0;
     color: #000;
-    /*font-size: 24px;
-    line-height: 28px;*/
-    font-size: 1.5em;
+    font-size: 24px;
+    line-height: 28px;
     text-align: center;
     cursor: pointer;
 }
@@ -90,9 +89,8 @@ body{
     top: 0%;
     display: inline-block;
     z-index: 10;
-    /*font-size: 40px;
-    line-height: 45px;*/
-    font-size: 2.5em;
+    font-size: 40px;
+    line-height: 45px;
     margin-top: 10%;
     padding: 2% 4% 4% 0;
     margin-left: 35%;
@@ -111,9 +109,8 @@ body{
 }
 
 .my_profession{
-    /*font-size: 26px;
-    line-height: 26px;*/
-    font-size: 0.7em;
+    font-size: 26px;
+    line-height: 26px;
 }
 /*------------------------------------------------------------*/
 .info{
@@ -132,17 +129,15 @@ body{
 }
 
 .info_h{
-    /*font-size: 28px;
-    line-height: 30px;*/
-    font-size: 1.7em;
+    font-size: 28px;
+    line-height: 30px;
     margin: 0;
     font-family: "Conv_zag";
 }
 
 .info_text{
-    /*font-size: 22px;
-    line-height: 25px;*/
-    font-size: 1.4em;
+    font-size: 22px;
+    line-height: 25px;
     margin-top: 10px;
 }
 
