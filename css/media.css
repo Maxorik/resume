@@ -1,7 +1,7 @@
 ﻿@media screen and (max-width:1000px){
     body{
-    background:none;
-    background-image: url(../img/dark-gray-cubes.png);
+        background:none;
+        background-image: url(../img/dark-gray-flecks.png);
     }
     
     .my_photo{
@@ -14,9 +14,6 @@
         position: inherit;
         width: 40%;
         height: auto;
-    }
-    
-    .resume{
         font-size: 30px;
         line-height: 34px;
     }
@@ -31,6 +28,14 @@
     .info, .info_part{
         margin:0;
         word-wrap: break-word;
+    }
+    
+    .info_text{
+        line-height: 30px;
+    }
+    
+    .info_text li{
+        padding-right: 5px;
     }
     
     .info_big{
