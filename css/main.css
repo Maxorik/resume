@@ -165,3 +165,51 @@ body{
     height: 15vh;
 }
 
+.work_example{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.preview_work{    
+    margin-right: 1%;
+}
+
+.img_work{
+    display: inline-block;
+    width:99%;
+}
+
+.preview_work a{ 
+    display: block; 
+    position: relative; 
+    font-size: 24px;
+    text-align: center;
+    font-family: "P152";
+    color: #81DAF5;
+}
+
+.preview_work a:after{ 
+    content: 'открыть'; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: rgba(0,0,0,0.5);  
+    opacity: 0; 
+}
+
+.preview_work a:hover:after{ 
+    opacity: 1; 
+}
+
+.preview_work p{
+    margin:0;
+    padding:0;
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
