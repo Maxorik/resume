@@ -76,6 +76,13 @@
         top:0;
         z-index: 99;
         background-image: url(../img/dark-gray-flecks.png);
-        
+    }
+    
+    .work_example{
+        flex-direction: column;
+    }
+    
+    .preview_work{
+        margin-bottom: 5%;
     }
 }
