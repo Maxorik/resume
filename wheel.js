@@ -1,7 +1,7 @@
 let hi_part=document.getElementById('hi_part');
 let my_photo=document.getElementById('my_photo');
 
-if(document.documentElement.clientWidth > 1000){
+if(document.documentElement.clientWidth > 1024){
     window.addEventListener('scroll', movement, false);
 }
 

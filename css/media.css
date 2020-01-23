@@ -1,4 +1,4 @@
-﻿@media screen and (max-width:1000px){
+﻿@media screen and (max-width:980px){
     body{
         background:none;
         background-image: url(../img/dark-gray-flecks.png);
@@ -85,4 +85,21 @@
     .preview_work{
         margin-bottom: 5%;
     }
+}
+
+@media screen and (max-width:1024px){
+    .hi_part{
+        margin-top: 5.5%;
+        margin-left: 50%;
+        padding: 0;
+        max-width: 95%;
+    }
+    .my_photo{
+        height:48%;
+    }
+    
+    .download{
+        top:55%;
+    }
+    
 }
