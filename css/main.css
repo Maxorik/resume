@@ -213,3 +213,8 @@ body{
     line-height: 28px;
     text-align: center;
 }
+
+.main_hr{
+    width: 100%;
+    opacity: 0.5;
+}
